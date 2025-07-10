@@ -17,17 +17,25 @@ namespace RosondDeveloperTest.Data
         //}
 
         public DbSet<Branch> Branches { get; set; }
+
+
         public DbSet<City> Cities { get; set; }
+
 
         public DbSet<Client> Clients { get; set; }
 
+
         public DbSet<Driver> Drivers { get; set; }
+
 
         public DbSet<Province> Provinces { get; set; }
 
+
         public DbSet<Supplier> Suppliers { get; set; }
 
+
         public DbSet<Vehicle> Vehicles { get; set; }
+
 
     }
 }
