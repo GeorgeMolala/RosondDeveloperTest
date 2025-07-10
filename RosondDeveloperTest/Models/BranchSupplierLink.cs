@@ -7,23 +7,19 @@ using System.Web;
 
 namespace RosondDeveloperTest.Models
 {
-    public class Driver
+    public class BranchSupplierLink
     {
         [Key]
-        public int Driver_ID { get; set; }
+        public int BranchSupplier_ID { get; set; }
 
-
-        [Required]
-        public string DriverName { get; set; }
-
-        public string DriverContactNumber { get; set; }
-
-        public string DriverEmail { get; set; }
 
         [ForeignKey("Branch")]
         public int Branch_ID { get; set; }
         public virtual Branch Branch { get; set; }
 
-        public virtual ICollection<Vehicle> Vehicles { get; set; }
+
+        [ForeignKey("Supplier")]
+        public int Supplier_ID { get; set; }
+        public virtual Supplier Supplier { get; set; }
     }
 }

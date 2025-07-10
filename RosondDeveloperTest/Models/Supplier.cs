@@ -33,5 +33,6 @@ namespace RosondDeveloperTest.Models
 
 
         public virtual ICollection<Vehicle> Vehicles { get; set; }
+        public virtual ICollection<BranchSupplierLink> BranchSupplierLinks { get; set; }
     }
 }

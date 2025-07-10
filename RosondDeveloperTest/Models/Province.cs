@@ -13,5 +13,7 @@ namespace RosondDeveloperTest.Models
         public int Prov_ID { get; set; }
 
         public string ProvinceName { get; set; }
+
+        public virtual ICollection<City> Cities { get; set; }
     }
 }
