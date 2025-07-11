@@ -22,25 +22,25 @@ namespace RosondDeveloperTest.Models
 
 
         [ForeignKey("Supplier")]
-        public int SupplierId { get; set; }
+        public int Supplier_ID{ get; set; }
         public virtual Supplier Supplier { get; set; }
 
 
 
         [ForeignKey("Branch")]
-        public int BranchId { get; set; }
+        public int Branch_ID { get; set; }
         public virtual Branch Branch { get; set; }
 
 
 
         [ForeignKey("Client")]
-        public int ClientId { get; set; }
+        public int Client_ID { get; set; }
         public virtual Client Client { get; set; }
 
 
 
         [ForeignKey("Driver")]
-        public int DriverId { get; set; }
+        public int Driver_ID { get; set; }
         public virtual Driver Driver { get; set; }
     }
 }

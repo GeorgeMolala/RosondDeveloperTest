@@ -27,6 +27,8 @@ namespace RosondDeveloperTest.Data
 
         public DbSet<Driver> Drivers { get; set; }
 
+        public DbSet<BranchSupplierLink> BranchSupplierLinks { get; set; }
+
 
         public DbSet<Province> Provinces { get; set; }
 

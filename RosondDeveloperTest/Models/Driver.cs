@@ -16,7 +16,7 @@ namespace RosondDeveloperTest.Models
         [Required]
         public string DriverName { get; set; }
 
-        public string DriverContactNumber { get; set; }
+        public long DriverContactNumber { get; set; }
 
         public string DriverEmail { get; set; }
 

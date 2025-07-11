@@ -18,7 +18,7 @@ namespace RosondDeveloperTest.Models
 
         public string BranchContactPerson { get; set; }
 
-        public string BranchContactNumber { get; set; }
+        public long BranchContactNumber { get; set; }
 
         public string BranchEmail { get; set; }
 

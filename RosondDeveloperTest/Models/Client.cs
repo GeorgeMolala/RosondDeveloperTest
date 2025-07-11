@@ -13,9 +13,7 @@ namespace RosondDeveloperTest.Models
 
         public string ClientName { get; set; }
 
-        public string ClientContactPerson { get; set; }
-
-        public float ClientContactNumber { get; set; }
+        public long ClientContactNumber { get; set; }
 
         public string ClientEmail { get; set; }
 
